@@ -1,0 +1,36 @@
+/* .image-car img{
+    height: 500px;
+} */
+
+.nav-bar-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lavender;
+    padding: 15px;
+    font-weight: bold;
+}
+.nav-bar-section a{
+    text-decoration: none;
+}
+@media only screen and (max-width:1000px){
+    .nav-bae-section2 {
+        display: block;
+    }
+        .nav-bar-section{
+            display: none;
+        }
+    
+}
+@media only screen and (min-width:1001px) and (max-width:2600px){
+    .nav-bar-section2{
+        display: none;
+    }
+
+        .nav-bar-section{
+            display: block;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+
+}
